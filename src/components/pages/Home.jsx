@@ -34,7 +34,7 @@ const Home = ({ go }) => {
             सद्भाव का संदेश फैलाना है।
           </p>
 
-          <div className="cta-row">
+          {/* <div className="cta-row">
             <button
               className="btn btn-primary"
               onClick={() => go("about")}
@@ -55,7 +55,7 @@ const Home = ({ go }) => {
             >
               Location / Google Map
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
 
