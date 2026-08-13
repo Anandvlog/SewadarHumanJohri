@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import { Menu, X } from "lucide-react";
 
-// import Diya from "../common/Diya";
+import Diya from "../common/Diya";
 import { NAV_ITEMS } from "../../data/siteData";
 
 const Navbar = ({ active, go }) => {
@@ -12,7 +12,7 @@ const Navbar = ({ active, go }) => {
       <div className="nav-inner">
 
         <button className="brand" onClick={() => go("home")}>
-          {/* <Diya size={30} /> */}
+          <Diya size={30} />
 
           <span className="brand-text">
             <span className="brand-en">
