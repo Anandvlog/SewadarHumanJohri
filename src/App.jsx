@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 
-import Navbar from "./components/layout/Navbar";
-import Footer from "./components/layout/Footer";
+// import Footer from "./components/layout/Footer";
+import Footer from "./components/Layout/Footer";
+import Navbar from "./components/Layout/Navbar";
 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -62,13 +63,16 @@ const App = () => {
 
   return (
     <div className="site" ref={topRef}>
+     
       <Navbar active={page} go={go} />
+      
 
       <main>
         {renderPage()}
       </main>
 
-      <Footer go={go} />
+      <Footer  go={go} />
+    
     </div>
   );
 };
