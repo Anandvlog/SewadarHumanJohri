@@ -1,3 +1,5 @@
+import Diya from "../common/Diya";
+
 const  History =()=> {
   const milestones = [
     { label: "स्थापना", text: "समाज को जोड़ने और आध्यात्मिक जागरूकता के उद्देश्य से स्थापना", meta: "[Information to be added]" },
@@ -30,9 +32,9 @@ const  History =()=> {
       <div className="timeline">
         {milestones.map((m, i) => (
           <div className="timeline-item" key={m.label}>
-            {/* <div className="timeline-dot">
+            <div className="timeline-dot">
               <Diya size={20} />
-            </div> */}
+            </div>
             <div className="timeline-content">
               <h4>{m.label}</h4>
               <p>{m.text}</p>

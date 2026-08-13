@@ -13,7 +13,7 @@ const Home = ({ go }) => {
         <div className="hero-glow" />
 
         <div className="hero-inner">
-          {/* <Diya size={72} className="hero-diya" /> */}
+          <Diya size={72} className="hero-diya" />
 
           {/* <Eyebrow>
             Human Service & Spiritual Center · Johri, Nalagarh
