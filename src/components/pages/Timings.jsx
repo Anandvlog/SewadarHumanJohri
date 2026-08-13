@@ -1,10 +1,10 @@
 const Timings =()  =>{
   return (
     <section className="page-block">
-      <SectionTitle hi="दर्शन एवं केंद्र का समय" />
+      {/* <SectionTitle hi="दर्शन एवं केंद्र का समय" /> */}
       <div className="timing-cards">
         <div className="timing-card">
-          <Clock size={26} />
+          {/* <Clock size={26} /> */}
           <h4>केंद्र का समय</h4>
           <div className="timing-row">
             <span>Opening Time</span>
@@ -16,7 +16,7 @@ const Timings =()  =>{
           </div>
         </div>
         <div className="timing-card highlight">
-          <Diya size={30} />
+          {/* <Diya size={30} /> */}
           <h4>भजन / सत्संग</h4>
           <div className="timing-row">
             <span>रविवार</span>

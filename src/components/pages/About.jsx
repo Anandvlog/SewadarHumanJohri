@@ -7,7 +7,7 @@ import SectionTitle from "../common/SectionTitle";
 const About = () => {
   return (
     <section className="page-block">
-      <SectionTitle hi="Sewadar Human Johri Nalagarh – एक परिचय" />
+      {/* <SectionTitle hi="Sewadar Human Johri Nalagarh – एक परिचय" /> */}
 
       <div className="prose">
         <p>

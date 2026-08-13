@@ -1,9 +1,9 @@
 const Gallery =()  =>{
   return (
     <section className="page-block">
-      <SectionTitle hi="फोटो गैलरी" />
+      {/* <SectionTitle hi="फोटो गैलरी" /> */}
       <div className="cards-grid gallery">
-        {GALLERY_CATEGORIES.map((cat) => (
+        {/* {GALLERY_CATEGORIES.map((cat) => (
           <div className="gallery-card" key={cat}>
             <div className="gallery-placeholder">
               <ImageIcon size={28} strokeWidth={1.5} />
@@ -11,7 +11,7 @@ const Gallery =()  =>{
             </div>
             <p className="gallery-label">{cat}</p>
           </div>
-        ))}
+        ))} */}
       </div>
     </section>
   );
