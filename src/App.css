@@ -109,6 +109,31 @@ button{font-family:inherit;cursor:pointer;background:none;border:none;color:inhe
 .btn-outline{background:transparent;color:var(--saffron-deep);border:1.5px solid var(--saffron);}
 .btn-outline:hover{background:rgba(225,121,31,0.08);}
 
+.video-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto 0;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+.hero-hanuman {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 24px;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
 /* ---------- Divider ---------- */
 .divider{display:flex;align-items:center;justify-content:center;gap:14px;margin:8px auto 8px;max-width:420px;padding:0 24px;}
 .divider-line{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
