@@ -17,7 +17,7 @@ const Contact = () => {
             {/* <Users size={18} /> */}
             <div>
               <span className="info-label">Name</span>
-              <p>Sewadar Human Johri Nalagarh</p>
+              <p>Sewadar Hanuman Johri Nalagarh</p>
             </div>
           </div>
           <div className="info-row">
@@ -65,7 +65,7 @@ const Contact = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Sewadar Human Johri Location"
+            title="Sewadar Hanuman Johri Location"
           />
          
         </div>

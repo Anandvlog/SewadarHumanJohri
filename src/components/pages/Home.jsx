@@ -16,11 +16,11 @@ const Home = ({ go }) => {
           <Diya size={72} className="hero-diya" />
 
           {/* <Eyebrow>
-            Human Service & Spiritual Center · Johri, Nalagarh
+            Hanuman Service & Spiritual Center · Johri, Nalagarh
           </Eyebrow> */}
 
           <h1 className="hero-title">
-            Sewadar Human Johri – Nalagarh
+            Sewadar Hanuman Johri – Nalagarh
           </h1>
 
           <p className="hero-tagline">
@@ -28,7 +28,7 @@ const Home = ({ go }) => {
           </p>
 
           <p className="hero-intro">
-            आपका स्वागत है Sewadar Human Johri Nalagarh में। यह एक साधना,
+            आपका स्वागत है Sewadar Hanuman Johri Nalagarh में। यह एक साधना,
             सेवा और आध्यात्मिक मार्ग पर आधारित केंद्र है जहाँ मानवता को
             सर्वोपरि माना जाता है। हमारा उद्देश्य समाज में शांति, प्रेम और
             सद्भाव का संदेश फैलाना है।

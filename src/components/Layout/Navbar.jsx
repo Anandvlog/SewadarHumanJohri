@@ -16,7 +16,7 @@ const Navbar = ({ active, go }) => {
 
           <span className="brand-text">
             <span className="brand-en">
-              Sewadar Human Johri
+              Sewadar Hanuman Johri
             </span>
 
             <span className="brand-hi">

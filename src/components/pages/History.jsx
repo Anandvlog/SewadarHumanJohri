@@ -8,17 +8,17 @@ const  History =()=> {
   ];
   return (
     <section className="page-block">
-      {/* <SectionTitle hi="Human Johri का इतिहास" /> */}
+      {/* <SectionTitle hi="Hanuman Johri का इतिहास" /> */}
       <div className="prose">
         <p>
-          Human Johri की परंपरा आत्मिक जागृति और मानवीय सेवा पर आधारित है।
+          Hanuman Johri की परंपरा आत्मिक जागृति और मानवीय सेवा पर आधारित है।
         </p>
         <p>
           वर्षों से यह परंपरा लोगों को अच्छे कर्म, शांत मन और सत्य मार्ग पर
           चलने की प्रेरणा देती आ रही है।
         </p>
         <p>
-          Nalagarh क्षेत्र में Sewadar Human Johri की स्थापना समाज को जोड़ने और
+          Nalagarh क्षेत्र में Sewadar Hanuman Johri की स्थापना समाज को जोड़ने और
           लोगों को आध्यात्मिक रूप से जागरूक करने के उद्देश्य से की गई थी।
         </p>
         <p>

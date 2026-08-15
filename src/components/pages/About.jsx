@@ -7,11 +7,11 @@ import SectionTitle from "../common/SectionTitle";
 const About = () => {
   return (
     <section className="page-block">
-      {/* <SectionTitle hi="Sewadar Human Johri Nalagarh – एक परिचय" /> */}
+      {/* <SectionTitle hi="Sewadar Hanuman Johri Nalagarh – एक परिचय" /> */}
 
       <div className="prose">
         <p>
-          Sewadar Human Johri Nalagarh एक सेवा और मानवता केंद्रित स्थान है
+          Sewadar Hanuman Johri Nalagarh एक सेवा और मानवता केंद्रित स्थान है
           जहाँ आध्यात्मिकता, सरलता और सद्भाव की सीख दी जाती है।
         </p>
 

@@ -4,7 +4,7 @@ const Footer =({ go })  =>{
       <div className="footer-inner">
         <div className="footer-brand">
           {/* <Diya size={28} /> */}
-          <p>© Sewadar Human Johri Nalagarh – Human Service &amp; Spiritual Path</p>
+          <p>© Sewadar Hanuman Johri Nalagarh – Hanuman Service &amp; Spiritual Path</p>
         </div>
         {/* <nav className="footer-links">
           {NAV_ITEMS.map((item) => (
