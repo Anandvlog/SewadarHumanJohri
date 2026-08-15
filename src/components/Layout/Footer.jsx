@@ -1,32 +1,11 @@
 import { NAV_ITEMS } from "../../data/siteData";
 import Diya from "../common/Diya";
+import SocialLinks from "../common/SocialLinks";
 
-import {
-  AiFillInstagram,
-  AiFillFacebook,
-  AiFillYoutube,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
+
 
 const Footer = ({ go }) => {
-  const socialLinks = [
-    {
-      name: "YouTube",
-      url: "https://www.youtube.com/@sewadarhanumanjohri1656",
-      icon: AiFillYoutube,
-    },
-    {
-      name: "Instagram",
-      url: "https://www.instagram.com/sewadar_hanuman_johri?igsh=dnM3NmxhMnFvNmd1",
-      icon: AiFillInstagram,
-    },
-    {
-      name: "Facebook",
-      url: "https://www.facebook.com/share/19FDHDHctN/",
-      icon: AiFillFacebook,
-    },
-  ];
-
+ 
   return (
     <footer className="footer">
       <div className="footer-inner">
@@ -54,22 +33,7 @@ const Footer = ({ go }) => {
 
         {/* Social Media */}
         <div className="footer-social">
-          {socialLinks.map((social) => {
-            const Icon = social.icon;
-
-            return (
-              <a
-                key={social.name}
-                href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={social.name}
-                title={social.name}
-              >
-                <Icon size={22} />
-              </a>
-            );
-          })}
+          <SocialLinks />
         </div>
 
         {/* Quote */}

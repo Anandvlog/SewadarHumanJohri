@@ -6,6 +6,12 @@
 //   Sun,
 //   Flame,
 // // } from "lucide-react";
+import {
+  AiFillInstagram,
+  AiFillFacebook,
+  AiFillYoutube,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 
 export const NAV_ITEMS = [
   { id: "home", label: "Home", hi: "होम" },
@@ -49,6 +55,24 @@ export const NAV_ITEMS = [
 //     title: "सामूहिक भजन एवं आध्यात्मिक संदेश",
 //   },
 // ];
+
+ export const socialLinks = [
+    {
+      name: "YouTube",
+      url: "https://www.youtube.com/@sewadarhanumanjohri1656",
+      icon: AiFillYoutube,
+    },
+    {
+      name: "Instagram",
+      url: "https://www.instagram.com/sewadar_hanuman_johri?igsh=dnM3NmxhMnFvNmd1",
+      icon: AiFillInstagram,
+    },
+    {
+      name: "Facebook",
+      url: "https://www.facebook.com/share/19FDHDHctN/",
+      icon: AiFillFacebook,
+    },
+  ];
 
 export const ACTIVITIES = [
   "ध्यान और आध्यात्मिक सीख",
