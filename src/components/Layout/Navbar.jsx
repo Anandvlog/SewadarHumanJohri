@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 import Diya from "../common/Diya";
 import { NAV_ITEMS } from "../../data/siteData";
@@ -39,12 +39,12 @@ const Navbar = ({ active, go }) => {
           ))}
         </nav>
 
-        {/* <button
+        <button
           className="mobile-toggle"
           onClick={() => setOpen((value) => !value)}
         >
           {open ? <X size={22} /> : <Menu size={22} />}
-        </button> */}
+        </button>
       </div>
 
       {open && (
