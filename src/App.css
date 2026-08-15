@@ -234,6 +234,35 @@ button{font-family:inherit;cursor:pointer;background:none;border:none;color:inhe
 .footer-links button{font-size:13.5px;color:#E9D9C4;opacity:.85;font-family:'Poppins',sans-serif;}
 .footer-links button:hover{opacity:1;color:#F6D06B;}
 .footer-quote{color:#F6D06B;font-size:16px;margin:0;}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.footer-social a {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+
+  color: inherit;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  transform: translateY(-3px);
+  border-color: currentColor;
+}
 
 /* ---------- Social ---------- */
 .social-row{display:flex;gap:12px;justify-content:center;align-items:center;}
